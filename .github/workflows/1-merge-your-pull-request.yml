@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     if: |
       !github.event.repository.is_template &&
-      github.head_ref == 'my-first-branch' &&
+      github.head_ref == 'quadrant-app' &&
       github.event.pull_request.merged == true
     env:
       ISSUE_URL: ${{ needs.find_exercise.outputs.issue-url }}
