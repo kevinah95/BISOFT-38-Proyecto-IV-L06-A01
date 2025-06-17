@@ -12,7 +12,7 @@ permissions:
 
 
 env:
-  STEP_1_FILE: ".github/steps/x-review.md"
+  STEP_1_FILE: ".github/steps/1-implementa-cuadrantes.md"
 
 jobs:
   start_exercise:
